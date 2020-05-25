@@ -59,10 +59,7 @@ nav li {
     
 
     
-    .section {
-       
-       
-         }
+   
       .home{
           position: relative;
           background-size: cover;
@@ -170,6 +167,8 @@ font-weight: 700;
         text-align: center;
         font-size: 1.1em;
         font-family: 'Montserrat', sans-serif;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .box {
@@ -232,7 +231,7 @@ margin-bottom: 15px;
   border-radius: 50%;
   shape-outside: circle();
   float: left;
-  shape-margin: 1%;
+  
 }
 .biobox{
     display : inline-block;
@@ -243,7 +242,13 @@ margin-bottom: 15px;
 }
 .biobox p{
     margin-bottom: 10px;
+    padding-left: 20%;
+   
+
     
+}
+.biobox p #text{
+    margin-left: 10px;
 }
 .logobox i{
 margin-right: 10px;
@@ -281,13 +286,23 @@ color: white;
         margin-left: auto;
         margin-right: auto;
     }
-
+    .biobox p{
+        
+        padding-left: 0%;
+       
+    
+        
+    }
 
 }
+
+
   /* Medium devices (tablets, 768px and up) */
 
-@media (max-width: 768px) {
 
+@media (max-width: 768px) {
+   
+    
     .container {
         max-width: 720px;
     }
