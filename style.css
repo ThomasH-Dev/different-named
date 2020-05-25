@@ -1,0 +1,358 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+  
+    
+    .container {
+
+       
+        padding: 20px;
+        height: inherit;
+        /* background-color: green; */
+        margin: 0 auto;
+        max-width: 1140px;
+        display: flex;
+    }
+    .jumbotron{
+        width: 100%;
+        
+        padding: 2rem 1rem;
+    margin-bottom: 2rem;
+   
+ 
+  
+    
+    }
+    .jumboinner{
+      
+        display: block;
+        color: white;
+        border-radius: 5px;
+    }
+    header{
+       
+        
+        width: 100%;
+    align-self: top;
+        
+      
+        justify-self: top!important
+        ;
+    }
+   
+  
+
+nav{
+margin-right: auto;
+margin-left: auto;
+}
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 20px;
+  
+    position: relative;
+  }
+    
+
+    
+    .section {
+       
+       
+         }
+      .home{
+          position: relative;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-image: url("img/treeshortened.png");
+          height: 90vh;
+          background-color: darkgreen;
+          color: white;
+          display: flex;
+          flex-direction: column;
+        justify-content: center;
+          align-items: center;
+          text-align: center;
+        
+      }
+      #about{
+          background-color:white;
+          height: auto;
+          color: rgb(5, 54, 5);
+          
+        
+      }
+      #skills{
+        background-color:rgb(61, 155, 92);
+        
+        
+    }
+    .green{
+        color: rgb(5, 54, 5);
+    }
+    .white{
+        color: white;
+    }
+    .titlewhite{
+        background-color: white;
+    }
+    .bgimage{
+        height: 100%;
+        position: relative;
+          background-image: url("img/trees_top_view_forest_114452_3840x2160.jpg");
+         
+          background-size: cover;
+          background-repeat: no-repeat;
+         
+    }
+    
+  
+    
+    .titleinner{
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        
+        
+        border-radius: 0% 0% 10px 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .row{  
+        flex-wrap: wrap;
+        
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        
+    }
+    .lead{
+        font-size: 1.4em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        margin-bottom: .4rem;
+        justify-self: center;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .title{
+        font-size: 3rem;
+        margin-top: 1rem;
+        text-align: center;
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+    }
+    .headtitle{
+font-size: 5rem;
+font-weight: 700;
+    }
+    
+    .subtitle{
+        font-size: 1.3rem;
+        
+        width: 80%;
+        margin: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    hr{
+        color: violet;
+    }
+    p {
+        display: block;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        text-align: center;
+        font-size: 1.1em;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .box {
+        max-width: 30%;
+        margin: 1rem .5rem;
+    }
+    .icon{
+   
+        text-align: center;
+    }
+
+      
+    .sectionheight{
+        min-height: 50vh;
+    }
+   
+    .fullcard{
+        height: inherit;
+        width: 28%;
+        margin-top: 1rem;
+        justify-content: center;
+        
+    }
+    .skillcard{
+        height: auto;
+        background-color:rgba(255, 255, 255);
+        width: 100%;
+        padding: 20px 30px;
+        border-radius: 5%;
+    }
+    
+    li.bullets {
+        list-style-type: square;
+       
+        font-size: 1.1em;
+        font-family: 'Montserrat', sans-serif;
+        list-style-position: outside;
+      }
+    .skillcardbox{
+justify-content: space-around;
+margin-bottom: 15px;
+    }
+.skillheader{
+    color: rgb(5, 54, 5);
+    font-size: 1.4em;
+    font-weight: 700;
+    margin-bottom: .3rem;
+    margin-top: .2rem;
+    
+}
+.skillspace{
+    justify-content: space-between;
+    display: flex;
+}
+
+.responsive{
+    max-height: 100%;
+    max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  shape-outside: circle();
+  float: left;
+  shape-margin: 1%;
+}
+.biobox{
+    display : inline-block;
+    max-width: 100%;
+    margin: 0 20px;
+    
+
+}
+.biobox p{
+    margin-bottom: 10px;
+    
+}
+.logobox i{
+margin-right: 10px;
+}
+
+#skills .logobox{
+    color: white;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    margin-bottom: 5px;
+
+}
+
+
+a:link, a:visited {
+text-decoration: none;
+color: white;
+}
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+    .fullcard{
+        
+        width: 40%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .box{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+}
+  /* Medium devices (tablets, 768px and up) */
+
+@media (max-width: 768px) {
+
+    .container {
+        max-width: 720px;
+    }
+    
+     .fullcard{
+        
+        width: 46%;
+        display: flex;
+        height: auto;
+       
+    }
+ .skillcard{
+     height: fit-content;
+ }
+.box {
+    max-width: 90%;
+   
+}
+
+
+.responsive{
+   
+  
+   
+  shape-outside: none;
+  float: none;
+  margin: auto;
+ display: block;
+ margin-bottom: 10px;
+}
+
+
+.block{
+    
+display: block;
+align-items: center;
+justify-content: center;
+}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  
+    
+ .container {
+    max-width: 548px;
+    display: block;
+    justify-content: center;
+
+
+}
+.fullcard{
+        
+    width: 85%;
+    
+   
+}
+.skillcardbox{
+    margin-bottom: 20px;
+}
+
+}
+
+@media (max-width: 347px) {
+    .container {
+        max-width: 320px;
+    }
+}
