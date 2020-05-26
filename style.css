@@ -243,13 +243,12 @@ margin-bottom: 15px;
 .biobox p{
     margin-bottom: 10px;
     padding-left: 20%;
+    text-align: left;
    
 
     
 }
-.biobox p #text{
-    margin-left: 10px;
-}
+
 .logobox i{
 margin-right: 10px;
 }
