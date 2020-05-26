@@ -141,6 +141,7 @@ nav li {
         text-align: center;
         font-weight: 700;
         margin-bottom: 1.5rem;
+       
     }
     .headtitle{
 font-size: 5rem;
@@ -243,7 +244,7 @@ margin-bottom: 15px;
 .biobox p{
     margin-bottom: 10px;
     padding-left: 20%;
-    text-align: left;
+    /* text-align: left; */
    
 
     
